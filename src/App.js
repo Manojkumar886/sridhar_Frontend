@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { MyfirstFunction } from "./Sample";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <table cellPadding={'4px'} border={'3px'}>
+                <thead>
+                    <tr>
+                        <th>S.no</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+            </table >
+            <MyfirstFunction />
+        </>
+    )
 }
+
 
 export default App;
