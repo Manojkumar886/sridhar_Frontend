@@ -1,3 +1,5 @@
+import App from "./App";
+
 function MyfirstFunction() {
     return (
         <>
@@ -6,6 +8,7 @@ function MyfirstFunction() {
                 React is not a framework.its a liabrary.
                 Data flow is always in a single direction.
                 React is used to build single-page applications.</p>
+
         </>
     )
 }
