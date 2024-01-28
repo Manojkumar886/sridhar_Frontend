@@ -1,9 +1,11 @@
-import { Bootstrapusage } from "./BootstrapUsage";
+import { List } from "./ArrayList";
+import { MyExpression } from "./TernaryOperator";
+
 
 function App() {
     return (
         <>
-            <Bootstrapusage />
+            <MyExpression />
         </>
     )
 }
