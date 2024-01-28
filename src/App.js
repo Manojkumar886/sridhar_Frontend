@@ -1,4 +1,4 @@
-import { MyfirstFunction } from "./Sample";
+import UsingArrow, { List, Marks, MyfirstFunction, } from "./Sample";
 
 function App() {
     return (
@@ -13,6 +13,9 @@ function App() {
                 </thead>
             </table >
             <MyfirstFunction />
+            <UsingArrow />
+            <List />
+            <Marks />
         </>
     )
 }

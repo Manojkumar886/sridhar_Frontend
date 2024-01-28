@@ -1,0 +1,11 @@
+ol {
+    font-style: italic;
+    text-decoration: overline brown;
+    font-weight: bold;
+    text-shadow: 2px 4px 8px lightcoral;
+}
+
+table {
+    font-family: monospace;
+    border: 2px solid sandybrown;
+}
